@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diet Diary</title>
+    <link rel="stylesheet" href="styles.css">
+   <link rel="shortcut icon" type="image/x-icon" href="C:\Users\Mohit\Desktop\Diet Diary\favicon.ico">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="home.html">Homepage</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="index.html">Login</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Welcome to the Homepage!</h1>
+        <p>This is the main content of the homepage.</p>
+
+        <!-- Food Details Form -->
+        <div class="food-form-container">
+            <h2>Log Food Details</h2>
+            <form action="#" method="post">
+                <label for="meal-type">Meal Type</label>
+                <select id="meal-type" name="meal-type" required>
+                    <option value="">Select Meal Type</option>
+                    <option value="breakfast">Breakfast</option>
+                    <option value="lunch">Lunch</option>
+                    <option value="dinner">Dinner</option>
+                </select>
+
+                <label for="food-name">Food Name</label>
+                <input type="text" id="food-name" name="food-name" required>
+
+                <label for="calories">Calories</label>
+                <input type="number" id="calories" name="calories" required>
+
+                <input type="submit" value="Log Food">
+            </form>
+        </div>
+    </main>
+</body>
+</html>
